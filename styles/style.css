@@ -1,0 +1,53 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Gochi Hand';
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #a3c3b3;
+  background-image: url(https://media.discordapp.net/attachments/724040455112753283/740008461999407175/Untitled_Artwork_10.jpg?width=908&height=511);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-image: url(https://media.cntraveler.com/photos/5cf96a9dd9fb41f17ed08435/master/pass/Eiffel%20Tower_GettyImages-1005348968.jpg);
+  width: 800px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: hsl(200, 100%, 50%);
+  border: 1px solid hsl(200, 100%, 30%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+}

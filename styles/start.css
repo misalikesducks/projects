@@ -1,0 +1,89 @@
+*, *::before, *::after {
+  font-family: 'Gochi Hand';
+
+ }
+/* This section of CSS handles anything that is not in the footer */
+@@font-face {
+  font-family: 'GochiHand';
+  src: url('GochiHand-Regular.ttf');
+  src: url('GochiHand-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    color:  green;
+    overflow: hidden;
+    background-color: #a3c3b3;
+    background-image: url(https://cdn.discordapp.com/attachments/724040455112753283/741383955999097012/ezgif.com-gif-maker_1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    overflow: hidden;
+}
+
+#title {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 180px;
+    color: #bcd4e6;
+}
+
+#start-button {
+    text-align: center;
+    font-size: 50px;
+}
+
+#start-button a {
+    text-decoration: none;
+}
+
+#start-button a:link, a:visited {
+    color: #fffff0;
+}
+
+#start-button a:hover {
+    color: #f5f6cb;
+}
+
+/* This section of CSS handles anything that is in the footer */
+#info-bar {
+    color: #000000;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#info-bar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#info-bar li {
+    float: left;
+    padding: 10px;
+}
+
+#infobar li a {
+    display: block;
+    text-align: center;
+    padding: 14 px 16px;
+}
+
+#info-bar li a:link, li a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+#info-bar li a:hover {
+    color: #fffff0;
+    text-decoration: none;
+}

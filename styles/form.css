@@ -1,0 +1,32 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Gochi Hand';
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #a3c3b3;
+  background-image: url(https://i.pinimg.com/originals/79/6a/c7/796ac7102f5344ce731977fbc61b7a53.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.contact-form{
+  border-radius: 8px;
+  padding: 10px 20px;
+  max-width: 300px;
+  margin: 10px auto;
+  background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+  text-align: center;
+  align: center;
+}
+h2 {
+  text-align: center;
+  color:  #f5f6cb;
+}
+ h5{
+   text-align: center;
+   color:  #f5f6cb;
+ }

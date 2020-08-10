@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    font-family: 'Arial';
+    background-color: #a3c3b3;
+    /* background-image: url(image_assets/greenwithclouds2.png);*/
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#loading-text {
+    font-family: 'brendohand';
+    color: #fffff0;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* The use of em allows the text within the bar to scale with the bar rather than overflow */
+.progress-bar {
+    position: relative;
+    width: 500px;
+    height: 2em;
+    background-color: #fffff0;
+    border-radius: 1em;
+    color: #000000;
+}
+
+/* Creates a pseudo-element that exists before the progress bar starts */
+.progress-bar::before {
+    content: attr(data-label);
+    position: absolute;
+    left: .25em;
+    top:.25em;
+    bottom: .25em;
+    width: calc(var(--width, 0) * 1%);
+	min-width: 1rem;
+	max-width: calc(100% - .5em);
+    background-color: #f1cfc4;
+    color: #f1cfc4;
+    border-radius: 1em;
+	padding: .5em;
+}
